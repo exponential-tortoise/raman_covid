@@ -27,27 +27,18 @@ The model is initialized with  liblinear solver along with L1 (lasso) penalty.
 The model acheived 97% accuracy on test dataset . 
 
 
-Classification report for test-dataset is as follows :
-
-
-              precision    recall  f1-score   support
-
-     Healthy       1.00      0.95      0.97        19
-  SARS-CoV-2       0.95      1.00      0.97        19
-
-    accuracy                           0.97        38
-   macro avg       0.97      0.97      0.97        38
-weighted avg       0.97      0.97      0.97        38
-
-
 
 The confusion matrix on test dataset :
+
+
+![Screenshot](confusion.png)
+
 
 
 
 
 **Acknowledgements** :
 
-Yin, Gang; Li, Lintao; Lu, Shun; Yin, Yu; Su, Yuanzhang; Zeng, Yilan; et al. (2020): Data and code on serum Raman spectroscopy as an efficient primary screening of coronavirus disease in 2019 (COVID-19). figshare. Dataset. https://doi.org/10.6084/m9.figshare.12159924.v1
+Yin, Gang; Li, Lintao; Lu, Shun; Yin, Yu; Su, Yuanzhang; Zeng, Yilan; et al. (2020): Data serum Raman spectroscopy as an efficient primary screening of coronavirus disease in 2019 (COVID-19). figshare. Dataset. https://doi.org/10.6084/m9.figshare.12159924.v1
 
 

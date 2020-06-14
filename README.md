@@ -1,6 +1,8 @@
-# raman_covid
 
 **A Lasso regularized Logistic Regression model to detect COVID-19 from Raman spectroscopy dataset**
+
+
+
 ![Screenshot](ramancovid.png)
 
 
@@ -20,7 +22,12 @@ Raman spectroscopy could be used as a cheap and quick method to diagnose infecti
 
 The source of this data was found in the following DOI: https://doi.org/10.6084/m9.figshare.12159924.v1
 
-**Approach**  :
+
+
+**Approach** 
+
+
+
 As the number of features was very large compared to number of observations , we resorted to Lasso regession to avoid overfitting . 
 The model is initialized with  liblinear solver along with L1 (lasso) penalty. 
 
@@ -28,10 +35,15 @@ The model acheived 97% accuracy on test dataset .
 
 
 
+
+
 The confusion matrix on test dataset :
 
 
 ![Screenshot](confusion.png)
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 # raman_covid
 
 **A Lasso regularized Logistic Regression model to detect COVID-19 from Raman spectroscopy dataset**
-![Screenshot](raman.png)
+![Screenshot](ramancovid.png)
 
 
 
@@ -28,6 +28,8 @@ The model acheived 97% accuracy on test dataset .
 
 
 Classification report for test-dataset is as follows :
+
+
               precision    recall  f1-score   support
 
      Healthy       1.00      0.95      0.97        19
@@ -40,11 +42,6 @@ weighted avg       0.97      0.97      0.97        38
 
 
 The confusion matrix on test dataset :
-
-
-
-
-
 
 
 
